@@ -412,7 +412,7 @@ Resources:
           services:
             sysvinit:
               httpd:
-                enabled: true
+                enabled: false
                 ensureRunning: true
               cfn-hup:
                 enabled: true
